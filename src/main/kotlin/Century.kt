@@ -6,7 +6,7 @@ fun main (){
     } else {
         century = ((year + 1) / 100) - 1
     }
-    print(century)
-    print("th century")
+   // print(century)
+    print("${century}th century")
 
 }
